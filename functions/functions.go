@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hiagomf/mac-utils/data/mac_address/singleton"
+	"github.com/hiagomf/networkutils/data/mac_address/singleton"
 )
 
 func GetManufacturer(macAddress *string) (manufacturerData *ManufacturerData, err error) {
